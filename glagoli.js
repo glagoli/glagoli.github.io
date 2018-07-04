@@ -9,7 +9,7 @@ function zgraditabelo(data) {
   
   var allRows = data.split(/\r?\n|\r/);
   tabela = allRows;
-  /*
+  
   var table = '<center> <font size="1">created by: Jakob Kreft, 28.5.2018</font> </center><center><table>';
   for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
          
@@ -46,7 +46,7 @@ function zgraditabelo(data) {
   table += '<br><br><br></table></center>';
   
   $('body').append(table);
-*/
+
 
 // random
 novo();
@@ -84,12 +84,11 @@ if ( document.getElementById("box4").value === vrstica[4]){document.getElementBy
     document.getElementById("box4").value = document.getElementById("box4").value+ " <- narobe";
      }
 }
-var x = 5
-function novo(){
-ponovno();
 
-  //var x = Math.floor((Math.random() * 118) + 1);
-x +=6
+function novo(){
+
+ var x = Math.floor((Math.random() * 118) + 1);
+
 //slovenski glagol zgori
 vrstica = tabela[x]
 vrstica = vrstica.split(',')

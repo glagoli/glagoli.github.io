@@ -51,7 +51,6 @@ function zgraditabelo(data) {
 // random
 novo();
 
-
  
 }
 function box1pom(){
@@ -86,7 +85,7 @@ if ( document.getElementById("box4").value === vrstica[4]){document.getElementBy
 }
 
 function novo(){
-
+ponovno();
  var x = Math.floor((Math.random() * 118) + 1);
 
 //slovenski glagol zgori
